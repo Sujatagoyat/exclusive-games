@@ -16,6 +16,7 @@ import Image777eliipse from '../assets/png/777-ellipse-2.png'
 import Imageplatinumellipse from '../assets/png/platinum-ellipse.png'
 import Imageplatinume2 from '../assets/png/platinum-section-ellipse.png'
 import Imageplatinume3 from '../assets/png/platinum-bottom-ellipse.png'
+import ImageShadow from '../assets/png/black-shadaw.png'
 
 function Másrazones() {
     return (
@@ -182,7 +183,7 @@ function Másrazones() {
                                 </div>
                             </div>
                         </div>
-                        <div className='my-outerbox mb-28'>
+                        <div className='my-outerbox'>
                             <div className='d-flex align-items-center  gap-37'>
                                 <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect width="68" height="68" rx="34" fill="#7AF57A" fill-opacity="0.08" />
@@ -239,6 +240,7 @@ function Másrazones() {
                         <div className="col-lg-6  position-relative z-2">
 
                             <img className='w-100 pt-70' src={Imagecasino} alt="casino-img.png" />
+                            {/* <img className='mix-blend' src={ImageShadow} alt="black-shadaw"/> */}
                             <div className='silver-ellipse d-lg-block d-none'>
                                 <img src={Imagesilverellipse} alt="silver-ellipse-16.png" />
                             </div>

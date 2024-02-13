@@ -158,8 +158,8 @@ function Atributos3() {
                     </div>
 
                 </div>
-                <div className='position-relative   max-w-162 mx-auto '>
-                    <button className='bttn btn-1-style text-nowrap mt-20 '>Mostrar más</button>
+                <div className='position-relative   max-w-162 mx-auto btn-1-hover '>
+                    <button className=' btn-1-style text-nowrap mt-20 '>Mostrar más</button>
                     <div className='btn-svg d-lg-block d-none'>
                         <svg width="107" height="28" viewBox="0 0 107 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5" stroke="url(#paint0_linear_2775_7)" stroke-width="1.5" stroke-linecap="round" />

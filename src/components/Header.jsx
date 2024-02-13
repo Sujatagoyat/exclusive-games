@@ -27,8 +27,8 @@ function Header() {
               </ul>
 
               {/* </div> */}
-              <div className='position-relative d-lg-block d-none'>
-                <button className='bttn nav-bttn'>Acceso</button>
+              <div className='position-relative d-lg-block d-none btn-hover'>
+                <button className=' butn'>Acceso</button>
                 <div className='btn-svg d-lg-block d-none'>
                   <svg width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
@@ -46,8 +46,8 @@ function Header() {
         <div className="container">
           <h1 className='main-heading color-white max-w-505 text-center mx-auto '>Exclusive Games. Pasión por ganar</h1>
           <p className='text color-white max-w-727 mx-auto pb-40 pt-3 text-center'>En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de juegos hasta que un día decidimos crear los propios.</p>
-          <div className='position-relative max-w-162 mx-auto '>
-            <button className='bttn btn-1-style  '>Empezar</button>
+          <div className='position-relative max-w-162 mx-auto btn-1-hover '>
+            <button className=' btn-1-style  '>Empezar</button>
             <div className='btn-svg'>
               <svg width="107" height="28" viewBox="0 0 107 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5" stroke="url(#paint0_linear_2657_11)" stroke-width="1.5" stroke-linecap="round" />

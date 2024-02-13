@@ -43,7 +43,7 @@
   text-align: left;
 }
 
-.nav-bttn {
+/* .nav-bttn {
   padding: 9px 27px 9px 27px;
   border: 2px solid white;
   border-radius: 41px;
@@ -54,7 +54,7 @@
 .nav-bttn:hover {
   background-color: var(--fc-white);
   color: var(--fc-black);
-}
+} */
 
 .bttn {
   font-family: 'Inter', sans-serif;
@@ -77,7 +77,8 @@
   background-color: var(--fc-white);
   color: var(--fc-black);
 }
-.underline::after{
+
+.underline::after {
   content: "";
   position: absolute;
   width: 0;
@@ -88,7 +89,8 @@
   bottom: 0;
   transition: all 200ms linear;
 }
-.underline:hover::after{
+
+.underline:hover::after {
   width: 100%;
 }
 
@@ -156,22 +158,50 @@ ul {
   max-width: 727px;
 }
 
+.butn {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 9px 27px 9px 27px;
+  border: 2px solid white;
+  border-radius: 41px;
+  color: var(--fc-white);
+  background-color: var(--fc-grey);
+}
+
 .btn-1-style {
   padding: 13px 46px 13px 46px;
   color: var(--fc-black);
   background: linear-gradient(306.99deg, #51C8EF -13.72%, #7AF57A 102.02%);
   border: 2px solid transparent;
   border-radius: 41px;
+  font-family: 'Inter', sans-serif;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .btn-1-style:hover {
+  color: white;
+}
+
+/* .btn-1-style:hover {
   opacity: 0.5;
   color: var(--fc-white);
   background: linear-gradient(306.99deg, #7AF57A -13.72%, #51C8EF 102.02%);
-}
+} */
 
 .max-w-162 {
   max-width: 162px;
+}
+
+.mix-blend {
+  mix-blend-mode: multiply !important;
 }
 
 .pb-40 {
@@ -184,6 +214,20 @@ ul {
 
 .pb-100 {
   padding-bottom: 150px;
+}
+
+.btn-hover:hover .butn {
+  background: var(--fc-white);
+  color: var(--fc-black);
+}
+
+/* .btn-1-hover:hover .btn-1-style {
+  color: var(--fc-white);
+  background: linear-gradient(306.99deg, #7AF57A -13.72%, #51C8EF 102.02%);
+} */
+
+.btnnn-hover:hover .btn-1-style {
+  color: var(--fc-white);
 }
 
 /* ========================= nuestra mission-2  ================================================== */
@@ -948,7 +992,10 @@ ul {
   :root {
     --fs-xl: 26px;
     --fs-lg: 26px;
-    --fs-2xl: 10px;
+  }
+
+  .main-heading {
+    line-height: 40px;
   }
 
   /* .lanza-box {
