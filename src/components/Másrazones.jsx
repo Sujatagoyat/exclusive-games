@@ -390,8 +390,8 @@ function Másrazones() {
                         </svg>
                         <p className='text color-white max-w-387 mb-0 text-center'>Tiempo de creación 2 a 3 semanas</p>
                     </div>
-                    <div className='position-relative max-w-118 mx-auto mb-5 mt-5 '>
-                        <button className='bttn btn-1-style text-nowrap  '>Comprar ahora</button>
+                    <div className='position-relative max-w-118 mx-auto mb-5 mt-5 btnnn-hover '>
+                        <button className=' btn-1-style text-nowrap  '>Comprar ahora</button>
                         <div className='btn-svg'>
                             <svg width="107" height="28" viewBox="0 0 107 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5" stroke="url(#paint0_linear_2657_11)" stroke-width="1.5" stroke-linecap="round" />
@@ -586,8 +586,8 @@ function Másrazones() {
                 {/* =====================================Lanza-box ========================================== */}
                 <div className='lanza-box mx-auto bg-cta-img d-flex align-items-center justify-content-center flex-column mt-50 mt-lg-150 '>
                     <h1 className='heading color-white text-center pb-40 max-w-593'>Lanza tu propia plataforma en sólo 2 semanas</h1>
-                    <div className='position-relative  max-w-164 mx-sm-auto'>
-                        <button className='bttn btn-1-style text-nowrap '>Leer más</button>
+                    <div className='position-relative  max-w-164 mx-sm-auto btnnn-hover'>
+                        <button className=' btn-1-style text-nowrap '>Leer más</button>
                         <div className='btn-svg'>
                             <svg width="107" height="28" viewBox="0 0 107 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5" stroke="url(#paint0_linear_2657_11)" stroke-width="1.5" stroke-linecap="round" />

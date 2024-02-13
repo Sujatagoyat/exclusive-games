@@ -158,7 +158,7 @@ function Atributos3() {
                     </div>
 
                 </div>
-                <div className='position-relative   max-w-162 mx-auto btn-1-hover '>
+                <div className='position-relative   max-w-162 mx-auto btnnn-hover '>
                     <button className=' btn-1-style text-nowrap mt-20 '>Mostrar más</button>
                     <div className='btn-svg d-lg-block d-none'>
                         <svg width="107" height="28" viewBox="0 0 107 28" fill="none" xmlns="http://www.w3.org/2000/svg">

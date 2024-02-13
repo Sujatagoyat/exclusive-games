@@ -46,7 +46,7 @@ function Header() {
         <div className="container">
           <h1 className='main-heading color-white max-w-505 text-center mx-auto '>Exclusive Games. Pasión por ganar</h1>
           <p className='text color-white max-w-727 mx-auto pb-40 pt-3 text-center'>En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de juegos hasta que un día decidimos crear los propios.</p>
-          <div className='position-relative max-w-162 mx-auto btn-1-hover '>
+          <div className='position-relative max-w-162 mx-auto btnnn-hover '>
             <button className=' btn-1-style  '>Empezar</button>
             <div className='btn-svg'>
               <svg width="107" height="28" viewBox="0 0 107 28" fill="none" xmlns="http://www.w3.org/2000/svg">
