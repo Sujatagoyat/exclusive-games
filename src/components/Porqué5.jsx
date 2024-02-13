@@ -7,7 +7,7 @@ function Porqué5() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 ">
-                        <h1 className='heading pb-16 pt-79  '>Por qué elegirnos</h1>
+                        <h1 className='heading pb-16 pt-lg-79 pt-50  '>Por qué elegirnos</h1>
                         <p className='text max-w-526 text-clr pb-24'>Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos todo lo invertido en fichas en la moneda que elijas. En Exclusive Games siempre sumamos nuevos juegos. Juegos crash, los juegos interactivos que más pide la gente. Con Exclusive Games empezás a ganar ya! Creamos tu plataforma en solo 2 semanas.</p>
 
                         {/* <div className='position-relative mb-5 mb-lg-0 btn-1-hover'>
@@ -25,7 +25,7 @@ function Porqué5() {
                             </div>
                         </div> */}
 
-                        <div className='position-relative   max-w-162 btn-1-hover '>
+                        <div className='position-relative   max-w-162 btn-1-hover mb-4 '>
                             <button className=' btn-1-style text-nowrap mt-20 '>Mostrar más</button>
                             <div className='btn-svg d-lg-block d-none'>
                                 <svg width="107" height="28" viewBox="0 0 107 28" fill="none" xmlns="http://www.w3.org/2000/svg">

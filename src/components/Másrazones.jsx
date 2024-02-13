@@ -16,7 +16,7 @@ import Image777eliipse from '../assets/png/777-ellipse-2.png'
 import Imageplatinumellipse from '../assets/png/platinum-ellipse.png'
 import Imageplatinume2 from '../assets/png/platinum-section-ellipse.png'
 import Imageplatinume3 from '../assets/png/platinum-bottom-ellipse.png'
-import ImageShadow from '../assets/png/black-shadaw.png'
+
 
 function Másrazones() {
     return (
@@ -240,7 +240,7 @@ function Másrazones() {
                         <div className="col-lg-6  position-relative z-2">
 
                             <img className='w-100 pt-70' src={Imagecasino} alt="casino-img.png" />
-                            {/* <img className='mix-blend' src={ImageShadow} alt="black-shadaw"/> */}
+                            {/* <img src={ImageShadow} alt="shadaw-black-img" /> */}
                             <div className='silver-ellipse d-lg-block d-none'>
                                 <img src={Imagesilverellipse} alt="silver-ellipse-16.png" />
                             </div>
@@ -580,11 +580,11 @@ function Másrazones() {
                         </div>
                     </div>
                 </div>
-                <div className='accordion-ellipse'>
+                <div className='accordion-ellipse d-lg-block d-none'>
                     <img src={Imageaccordion} alt="accordion-ellipse" />
                 </div>
                 {/* =====================================Lanza-box ========================================== */}
-                <div className='lanza-box mx-auto bg-cta-img d-flex align-items-center justify-content-center flex-column mt-150 '>
+                <div className='lanza-box mx-auto bg-cta-img d-flex align-items-center justify-content-center flex-column mt-50 mt-lg-150 '>
                     <h1 className='heading color-white text-center pb-40 max-w-593'>Lanza tu propia plataforma en sólo 2 semanas</h1>
                     <div className='position-relative  max-w-164 mx-sm-auto'>
                         <button className='bttn btn-1-style text-nowrap '>Leer más</button>

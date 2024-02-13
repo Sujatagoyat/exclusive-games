@@ -71,7 +71,7 @@ function Potenciando4() {
                     </div>
                 </div>
 
-                <div className='outer-box d-flex align-items-center justify-content-center pt-150 position-relative mx-auto'>
+                <div className='outer-box d-flex align-items-center justify-content-center mt-50 mt-lg-150 position-relative mx-auto'>
                     <p className='heading color-white  max-w-520 mx-auto text-center mb-0'>lanza tu propia plataforma en sólo 2 semanas</p>
                     <div className='box-img-1 d-lg-block d-none '>
                         <img src={Imagebox} alt="box-img-1.png" />
@@ -83,7 +83,7 @@ function Potenciando4() {
 
 
 
-                <h1 className='heading color-white text-center pt-150 pb-60'>Juegos en vivo</h1>
+                <h1 className='heading color-white text-center mt-50 mt-lg-150 pb-60'>Juegos en vivo</h1>
                 <div className="row  justify-content-center">
                     <div className="col-lg-4 col-md-6 position-relative card_hover mb-3">
                         <div className='position-relative black_layer  '>

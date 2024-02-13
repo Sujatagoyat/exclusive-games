@@ -10,7 +10,7 @@ function NuestraMission2() {
 
                     <div className="col-lg-6 item-center">
                         <img className='w-100 max-w-538 cursor-pointer position-relative ' src={Imagepoker} alt="poker.png" />
-                        <div className='ellipse-position opacity-50'>
+                        <div className='ellipse-position opacity-50 d-lg-block d-none'>
                             <div className='ellipse-1 blur'></div>
                         </div>
                         <div className='my-box'>

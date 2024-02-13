@@ -121,6 +121,10 @@ ul {
   flex-grow: 1 !important;
 }
 
+.pt-50 {
+  padding-top: -13px;
+}
+
 .btn-svg {
   position: absolute;
   bottom: -6px;
@@ -721,8 +725,8 @@ ul {
 }
 
 /* ======================================== Accordion ================================================ */
-.pt-lg-150 {
-  padding-top: 150px;
+.pt-120{
+  padding-top: 55px;
 }
 
 .accordion-button {
@@ -810,8 +814,8 @@ ul {
   background-image: url(./assets/png/Final-cta-img.png);
 }
 
-.mt-150 {
-  margin-top: 150px;
+.mt-50 {
+  margin-top: 50px;
 }
 
 .max-w-593 {
@@ -973,17 +977,27 @@ ul {
     padding: 104px 274px;
   }
 
-  /* .bg-img-3{
-      background-size: 100% 100%;
-    } */
+  .pt-lg-150 {
+    padding-top: 150px;
+  }
+
+  .pt-lg-79 {
+    padding-top: 79px;
+  }
+  .mt-lg-150{
+    margin-top: 150px;
+  }
+
 }
+
+
 
 @media (max-width:768px) {
   :root {
     --fs-xl: 30px;
     --fs-lg: 30px;
     --fs-2xl: 30px;
-    /* --fs-2xl: 72px; */
+
   }
 }
 
