@@ -13,6 +13,7 @@
   background-color: var(--fc-darkgrey);
 }
 
+
 :root {
   --fs-sm: 16px;
   --fs-md: 20px;
@@ -473,6 +474,12 @@ ul {
   background-color: #051D20;
 }
 
+.top-ellipse-2 {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+
 .mb-28 {
   margin-bottom: 28px;
 }
@@ -499,6 +506,13 @@ ul {
   padding: 57px 47px 28px 50px;
   border-radius: 16px;
   border: 0.5px solid #3F884F;
+}
+
+.silver-ellipse {
+  position: absolute;
+  top: -67px;
+  left: -7px;
+  z-index: -1;
 }
 
 .mt-60 {
@@ -537,7 +551,20 @@ ul {
 .platinum-box {
   border: 0.5px solid var(--fc-lightgreen);
   border-radius: 16px;
+}
 
+.platinum-ellipse {
+  position: absolute;
+  top: -37px;
+  right: -41px;
+  z-index: -1;
+}
+
+.platinum-section-ellipse {
+  /* position: absolute;
+  top: 40%;
+  left: 0; */
+  
 }
 
 .px-50 {
@@ -620,14 +647,20 @@ ul {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
+  border-bottom: none !important;
 }
 
 .accordion-item {
-  border: 0.5px solid #80898D;
-  border-radius: 6px;
+  color: var(--bs-accordion-color);
+  /* background-color: var(--bs-accordion-bg); */
+  border: .5px solid #80898D !important;
 }
 
-*/ .accordion-button.collapsed {
+.accordion-body.collapsed {
+  border-top: none !important;
+}
+
+.accordion-button.collapsed {
   background: var(--fc-teagreen);
   color: var(--fc-white);
 }
@@ -676,7 +709,7 @@ ul {
 
 .accordion-ellipse {
   position: absolute;
-  top: 58%;
+  top: 66%;
   left: 0;
 }
 

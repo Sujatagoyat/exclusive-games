@@ -11,6 +11,11 @@ import Imagegiro from '../assets/png/giros1img.png'
 import Imageaccordion from '../assets/png/accordion-ellipse.png'
 import Imagetopsection from '../assets/png/top-section-ellipse.png'
 import Imageplatinum from '../assets/png/platinum-img.png'
+import Imagesilverellipse from '../assets/png/silver-ellipse-16.png'
+import Image777eliipse from '../assets/png/777-ellipse-2.png'
+import Imageplatinumellipse from '../assets/png/platinum-ellipse.png'
+import Imageplatinume2 from '../assets/png/platinum-section-ellipse.png'
+import Imageplatinume3 from '../assets/png/platinum-bottom-ellipse.png'
 
 function Másrazones() {
     return (
@@ -19,6 +24,9 @@ function Másrazones() {
                 {/* ============================= 777-box ============================================= */}
                 <div className='top-section-ellipse'>
                     <img src={Imagetopsection} alt="top-section-ellipse.png" />
+                </div>
+                <div className='top-ellipse-2'>
+                    <img src={Image777eliipse} alt="777-ellipse-2.png" />
                 </div>
                 <div className="row">
                     <div className="col-lg-6">
@@ -225,12 +233,15 @@ function Másrazones() {
                 <h1 className='heading color-white pt-150 text-center'>Nuestras ofertas</h1>
                 <p className=' color-white text-center max-w-511'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
 
-                <div className='my-bigbox mt-60 mx-auto'>
+                <div className='my-bigbox mt-60 mx-auto '>
                     <div className="row">
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6  position-relative z-2">
 
                             <img className='w-100 pt-70' src={Imagecasino} alt="casino-img.png" />
+                            <div className='silver-ellipse'>
+                                <img src={Imagesilverellipse} alt="silver-ellipse-16.png" />
+                            </div>
                         </div>
 
                         <div className="col-lg-6">
@@ -309,6 +320,7 @@ function Másrazones() {
 
                         </div>
                     </div>
+
 
                 </div>
                 {/* ========================================== luxury-box =============================================== */}
@@ -407,6 +419,9 @@ function Másrazones() {
 
                 </div>
                 {/* ==================== platinum-box ============================================ */}
+                <div className='platinum-section-ellipse'>
+                    <img src={Imageplatinume2} alt="platinum-section-ellipse.png" />
+                </div>
                 <div className='platinum-box mt-60'>
                     <div className="row flex-lg-row flex-column-reverse">
                         <div className="col-lg-6 py-120 px-50">
@@ -426,8 +441,11 @@ function Másrazones() {
                                 <p className='text color-white mb-0'>Personalizable </p>
                             </div>
                         </div>
-                        <div className="col-lg-6 py-78 pe-3">
+                        <div className="col-lg-6 py-78 pe-3 position-relative z-2">
                             <img className='w-100' src={Imageplatinum} alt="platinum" />
+                            <div className='platinum-ellipse'>
+                                <img src={Imageplatinumellipse} alt="platinum-ellipse.png" />
+                            </div>
                         </div>
 
                     </div>
@@ -438,7 +456,7 @@ function Másrazones() {
                 <div className="row justify-content-center">
                     <div className=" col-lg-4 col-md-6 position-relative card_hover mb-3">
                         <div className='position-relative black_layer mb-4  '>
-                            <img className='w-100' src={Imagegiro} alt="giros1img" />
+                            <img className='w-100 h-100 ' src={Image} alt="simg.png" />
                         </div>
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center '>
                             <div className=' position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
@@ -483,46 +501,47 @@ function Másrazones() {
                 {/* /*=================================== accordion ====================================================== */}
                 <h1 className='heading color-white text-center pb-30 pb-lg-60 pt-120 pt-lg-150'>Preguntas más frecuentes</h1>
                 <div class="accordion" id="accordionExample">
-                    <div class="accordion-item mb-4">
+
+                    <div class="accordion-item mb-3">
                         <h2 class="accordion-header">
-                            <button class="accordion-button bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                ¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                            <div class="accordion-body bg-teagreen">
-                                <p className='text max-w-880 color-white '>En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item mb-4">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 ¿Cómo garantizan la seguridad de las operaciones en sus juegos?
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body bg-teagreen">
                                 <p className='text max-w-880 color-white'>En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mb-4">
+                    <div class="accordion-item mb-3">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 ¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body bg-teagreen ">
                                 <p className='text max-w-880 color-white '>En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mb-4">
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                ¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-teagreen">
+                                <p className='text max-w-880 color-white'>En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                ¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?
+                                ¿Qué métodos de pago aceptan?
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -531,10 +550,10 @@ function Másrazones() {
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mb-4">
+                    <div class="accordion-item mb-3">
                         <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                ¿Qué métodos de pago aceptan?
+                            <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                ¿Puedo probar sus juegos antes de comprometerme?
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -543,7 +562,7 @@ function Másrazones() {
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mb-4">
+                    <div class="accordion-item mb-3">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed bg-teagreen color-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 ¿Puedo probar sus juegos antes de comprometerme?
