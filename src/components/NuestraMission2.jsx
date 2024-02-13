@@ -4,7 +4,7 @@ import Imageaviator from '../assets/png/aviator.png'
 
 function NuestraMission2() {
     return (
-        <section className='bg-clr-2 py-5 position-relative overflow-hidden'>
+        <section id='Mission' className='bg-clr-2 py-5 position-relative overflow-hidden'>
             <div className="container">
                 <div className="row ">
 

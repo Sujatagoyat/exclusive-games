@@ -6,7 +6,7 @@ function Header() {
     <header className='bg-img  min-vh-100 d-flex flex-column'>
       <div className='bg-clr'>
         <div className="container">
-          <nav className='pt-5 pb-5' >
+          <nav className='pt-3 pb-3' >
             <div className='d-flex justify-content-between align-items-center' >
               <img className='cursor-pointer my-image' src={ImageHead} alt="logo.png" />
               <label htmlFor="menu-icon">
@@ -18,11 +18,11 @@ function Header() {
               {/* <div className='sm-screen'> */}
               {/* <div className='d-flex gap-50  align-items center ' > */}
               <ul className='d-flex align-items-center gap-5 mb-0 sm-screen'>
-                <li><a className='link' href="">Hogar</a></li>
-                <li><a className='link' href="">Misión</a></li>
-                <li><a className='link' href="">Tragamonedas</a></li>
-                <li><a className='link text-nowrap' href="">Por qué elegirnos</a></li>
-                <li><a className='link' href="">Ofertas</a></li>
+                <li><a className='link  underline position-relative' href="">Hogar</a></li>
+                <li><a className='link underline position-relative' href="#Mission">Misión</a></li>
+                <li><a className='link underline position-relative' href="">Tragamonedas</a></li>
+                <li><a className='link text-nowrap underline position-relative' href="#Por">Por qué elegirnos</a></li>
+                <li><a className='link underline position-relative' href="">Ofertas</a></li>
                 <li><button className='bttn nav-bttn d-lg-none d-block'>Acceso</button></li>
               </ul>
 

@@ -511,7 +511,7 @@ function Másrazones() {
                                 ¿Cómo garantizan la seguridad de las operaciones en sus juegos?
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                             <div class="accordion-body bg-teagreen">
                                 <p className='text max-w-880 color-white'>En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.</p>
                             </div>

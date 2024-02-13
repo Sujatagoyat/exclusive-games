@@ -3,6 +3,7 @@
 * {
   list-style-type: none !important;
   text-decoration: none !important;
+  scroll-behavior: smooth;
 }
 
 .background-clr {
@@ -35,7 +36,7 @@
 .link {
   color: white;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: var(--fs-sm);
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0em;
@@ -46,13 +47,18 @@
   padding: 9px 27px 9px 27px;
   border: 2px solid white;
   border-radius: 41px;
-  color: white;
+  color: var(--fc-white);
   background-color: var(--fc-grey);
+}
+
+.nav-bttn:hover {
+  background-color: var(--fc-white);
+  color: var(--fc-black);
 }
 
 .bttn {
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: var(--fs-sm);
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0em;
@@ -63,13 +69,27 @@
   padding: 13px 46px 13px 46px;
   border: 2px solid white;
   border-radius: 41px;
-  color: white;
+  color: var(--fc-white);
   background-color: var(--fc-grey);
 }
 
 .btn-style:hover {
   background-color: var(--fc-white);
   color: var(--fc-black);
+}
+.underline::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: var(--fc-white);
+  opacity: 0.7;
+  left: 0;
+  bottom: 0;
+  transition: all 200ms linear;
+}
+.underline:hover::after{
+  width: 100%;
 }
 
 .my-image {
@@ -107,7 +127,7 @@ ul {
 
 .main-heading {
   font-family: 'Anton', sans-serif;
-  font-size: 72px;
+  font-size: var(--fs-2xl);
   font-weight: 400;
   line-height: 86px;
   letter-spacing: 0em;
@@ -115,7 +135,7 @@ ul {
 }
 
 .color-white {
-  color: white;
+  color: var(--fc-white);
 }
 
 .max-w-505 {
@@ -125,7 +145,7 @@ ul {
 .text {
   font-family: 'Inter',
     sans-serif;
-  font-size: 16px;
+  font-size: var(--fs-sm);
   font-weight: 500;
   line-height: 25.6px;
   letter-spacing: 0em;
@@ -147,6 +167,7 @@ ul {
 .btn-1-style:hover {
   opacity: 0.5;
   color: var(--fc-white);
+  background: linear-gradient(306.99deg, #7AF57A -13.72%, #51C8EF 102.02%);
 }
 
 .max-w-162 {
@@ -754,8 +775,20 @@ ul {
 }
 
 /* ================================== footer ========================================== */
+.max-w-50 {
+  max-width: 50px;
+}
+
 .bg-black {
   background-color: black;
+}
+
+.color {
+  color: #CCCCCC;
+}
+
+.color:hover {
+  color: white;
 }
 
 .pt-64 {
