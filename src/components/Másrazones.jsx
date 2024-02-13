@@ -22,10 +22,10 @@ function Másrazones() {
         <section className='py-5 position-relative'>
             <div className="container">
                 {/* ============================= 777-box ============================================= */}
-                <div className='top-section-ellipse'>
+                <div className='top-section-ellipse d-lg-block d-none'>
                     <img src={Imagetopsection} alt="top-section-ellipse.png" />
                 </div>
-                <div className='top-ellipse-2'>
+                <div className='top-ellipse-2 d-lg-block d-none'>
                     <img src={Image777eliipse} alt="777-ellipse-2.png" />
                 </div>
                 <div className="row">
@@ -34,7 +34,7 @@ function Másrazones() {
                     </div>
                     <div className="col-lg-6 item-center ">
 
-                        <h1 className='heading color-white pb-60 pt-3'>Más razones para elegirnos</h1>
+                        <h1 className='heading color-white pb-60 pt-5'>Más razones para elegirnos</h1>
                         <div className='my-outerbox mb-28'>
                             <div className='d-flex align-items-center  gap-37'>
                                 <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -239,7 +239,7 @@ function Másrazones() {
                         <div className="col-lg-6  position-relative z-2">
 
                             <img className='w-100 pt-70' src={Imagecasino} alt="casino-img.png" />
-                            <div className='silver-ellipse'>
+                            <div className='silver-ellipse d-lg-block d-none'>
                                 <img src={Imagesilverellipse} alt="silver-ellipse-16.png" />
                             </div>
                         </div>
@@ -419,8 +419,11 @@ function Másrazones() {
 
                 </div>
                 {/* ==================== platinum-box ============================================ */}
-                <div className='platinum-section-ellipse'>
+                <div className='platinum-section-ellipse d-lg-block d-none'>
                     <img src={Imageplatinume2} alt="platinum-section-ellipse.png" />
+                </div>
+                <div className='platinum-bottom-section d-lg-block d-none'>
+                    <img src={Imageplatinume3} alt="platinum-bottom-ellipse.png" />
                 </div>
                 <div className='platinum-box mt-60'>
                     <div className="row flex-lg-row flex-column-reverse">
@@ -443,7 +446,7 @@ function Másrazones() {
                         </div>
                         <div className="col-lg-6 py-78 pe-3 position-relative z-2">
                             <img className='w-100' src={Imageplatinum} alt="platinum" />
-                            <div className='platinum-ellipse'>
+                            <div className='platinum-ellipse d-lg-block d-none'>
                                 <img src={Imageplatinumellipse} alt="platinum-ellipse.png" />
                             </div>
                         </div>
@@ -455,8 +458,8 @@ function Másrazones() {
                 <h1 className='heading color-white  max-w-699 pt-150 mx-auto pb-60 text-nowrap item-center'>Ellos eligieron apostar con nosotros</h1>
                 <div className="row justify-content-center">
                     <div className=" col-lg-4 col-md-6 position-relative card_hover mb-3">
-                        <div className='position-relative black_layer mb-4  '>
-                            <img className='w-100 h-100 ' src={Image} alt="simg.png" />
+                        <div className='position-relative black_layer  '>
+                            <img className='w-100 h-100 ' src={Imagegiro} alt="giro.png" />
                         </div>
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center '>
                             <div className=' position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
@@ -468,7 +471,7 @@ function Másrazones() {
                         </div>
                     </div>
                     <div className=" col-lg-4 col-md-6 position-relative card_hover mb-3">
-                        <div className='position-relative black_layer mb-4  '>
+                        <div className='position-relative black_layer '>
                             <img className='w-100 h-100 ' src={Image} alt="simg.png" />
                         </div>
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center '>

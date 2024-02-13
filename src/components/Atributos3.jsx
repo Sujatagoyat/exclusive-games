@@ -13,7 +13,7 @@ import Imageslot6 from '../assets/png/slot-img-6.png'
 function Atributos3() {
     return (
         // < div>
-        <section className='my-py bg-img-2 position-relative z-3'>
+        <section className='my-py bg-img-2 position-relative z-3 bg-clr-white'>
             <div className="container pb-150">
                 <h1 className='heading mx-auto  text-center pb-3 text-nowrap'>Nuestros Atributos de Marca</h1>
                 <div className="row position-relative align-items-center justify-content-center">

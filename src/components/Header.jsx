@@ -3,12 +3,12 @@ import ImageHead from '../assets/png/logo.png'
 
 function Header() {
   return (
-    <header className='bg-img pb-100n min-vh-100 d-flex flex-column'>
+    <header className='bg-img  min-vh-100 d-flex flex-column'>
       <div className='bg-clr'>
         <div className="container">
-          <nav className='pt-5 pb-3' >
-            <div className='d-flex justify-content-between align-items center' >
-              <img className='cursor-pointer' src={ImageHead} alt="logo.png" />
+          <nav className='pt-5 pb-5' >
+            <div className='d-flex justify-content-between align-items-center' >
+              <img className='cursor-pointer my-image' src={ImageHead} alt="logo.png" />
               <label htmlFor="menu-icon">
                 <span></span>
                 <span></span>
@@ -21,14 +21,14 @@ function Header() {
                 <li><a className='link' href="">Hogar</a></li>
                 <li><a className='link' href="">Misión</a></li>
                 <li><a className='link' href="">Tragamonedas</a></li>
-                <li><a className='link' href="">Por qué elegirnos</a></li>
+                <li><a className='link text-nowrap' href="">Por qué elegirnos</a></li>
                 <li><a className='link' href="">Ofertas</a></li>
-                <li><button className='bttn btn-style d-lg-none d-block'>Acceso</button></li>
+                <li><button className='bttn nav-bttn d-lg-none d-block'>Acceso</button></li>
               </ul>
 
               {/* </div> */}
               <div className='position-relative d-lg-block d-none'>
-                <button className='bttn btn-style '>Acceso</button>
+                <button className='bttn nav-bttn'>Acceso</button>
                 <div className='btn-svg d-lg-block d-none'>
                   <svg width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />

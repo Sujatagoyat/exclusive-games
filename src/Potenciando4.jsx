@@ -74,10 +74,10 @@ function Potenciando4() {
                 <div className='outer-box d-flex align-items-center justify-content-center pt-150 position-relative mx-auto'>
                     <p className='heading color-white  max-w-520 mx-auto text-center mb-0'>lanza tu propia plataforma en sólo 2 semanas</p>
                     <div className='box-img-1 d-lg-block d-none '>
-                        <img  src={Imagebox} alt="box-img-1.png" />
+                        <img src={Imagebox} alt="box-img-1.png" />
                     </div>
                     <div className='box-img-3 d-lg-block d-none '>
-                        <img  src={Imagebox2} alt="box-img-2.png" />
+                        <img src={Imagebox2} alt="box-img-2.png" />
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@ function Potenciando4() {
                 <h1 className='heading color-white text-center pt-150 pb-60'>Juegos en vivo</h1>
                 <div className="row  justify-content-center">
                     <div className="col-lg-4 col-md-6 position-relative card_hover mb-3">
-                        <div className='position-relative black_layer mb-4  '>
+                        <div className='position-relative black_layer  '>
                             <img className='w-100' src={Imageezugi} alt="Ezugi-1.png" />
                         </div>
                         <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center '>
@@ -98,12 +98,33 @@ function Potenciando4() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 mb-3">
-                        <img className='w-100 ' src={Imageroullte} alt="roulette-2.png " />
+                    <div className="col-lg-4 col-md-6 position-relative card_hover mb-3">
+                        <div className='position-relative black_layer  '>
+                            <img className='w-100 ' src={Imageroullte} alt="roulette-2.png " />
+                        </div>
+                        <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center '>
+                            <div className='mt-4  position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
+                                <button className='bttn btn-style-3 color-white '>Reproducir ahora</button>
+                                <svg className='btn-svg' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 mb-3">
-                        <img className='w-100' src={Imagelivebetting} alt="live-betting.png " />
+                    <div className="col-lg-4 col-md-6 position-relative card_hover mb-3">
+                        <div className='position-relative black_layer  '>
+                            <img className='w-100' src={Imagelivebetting} alt="live-betting.png " />
+                        </div>
+                        <div className='position-absolute btn_none top-0 bottom-0 start-0 end-0 d-flex align-items-center justify-content-center '>
+                            <div className='mt-4  position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
+                                <button className='bttn btn-style-3 color-white '>Reproducir ahora</button>
+                                <svg className='btn-svg' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
 
 
