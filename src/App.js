@@ -11,7 +11,7 @@ import LastSection from './components/LastSection'
 
 function App() {
   return (
-    <div className='overflow-x-hidden'> 
+    <div className='overflow-x-hidden overflow-y-hidden'>
       <Header />
       <NuestraMission2 />
       <Atributos3 />
